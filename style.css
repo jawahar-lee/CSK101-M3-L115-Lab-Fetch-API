@@ -1,0 +1,66 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  color: white;
+}
+
+body {
+  background-color: blueviolet;
+}
+
+#main {
+  height: 100vh;
+  width: 100%;
+}
+
+#title {
+  font-size: 70px;
+  font-weight: 600;
+  opacity: 0.8;
+  margin-top: 20px;
+}
+
+.flex {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+#getLocation {
+  margin-bottom: 30px;
+  margin-top: 60px;
+  height: 40px;
+  width: 300px;
+  border-radius: 15px 5px 15px 5px;
+  border-bottom: orange 4px solid;
+  background-color: rgb(203, 224, 125);
+  opacity: 0.6;
+  font-size: 20px;
+  padding-left: 10px;
+  color: black;
+}
+
+#info2 {
+  margin-top: 30px;
+}
+
+#info3 {
+  margin-top: 50px;
+}
+
+h2 {
+  font-size: 35px;
+}
+
+h1 {
+  font-size: 150px;
+}
+
+h3 {
+  font-size: 20px;
+}
+
+#temperature {
+  text-shadow: 2px 6px black;
+}
